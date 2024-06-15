@@ -1,0 +1,64 @@
+//=================  popup =========================
+.popupDelete{
+  inset: 0;
+  background-color: #6a64f1;;
+  align-items: center;
+  width: 130px;
+  height: 52px;
+}
+
+.btnXacNhanXoa {
+	background: #fff;
+  margin-top: 8%;
+  margin-left: 23%;
+	text-transform: uppercase;
+  border-radius: 7%;
+  padding: 9px;
+  font-size: 10px;
+  color: black;
+  font-weight: bold;
+}
+//=============== animation add =====================
+.addAnimation{
+  position: absolute;
+  top: 13%;
+  left: 10%;
+}
+//=============== Table ======================
+#customers {
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    border-collapse: collapse;
+    width: 80%;
+    left: 10%;
+    top: 20%;    
+  }
+  
+  #customers td, #customers th {
+
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr{background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #6a64f1;
+    color: white;
+  }
+//================ Paginate ==================
+.page {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  background-color: #ddd;
+}
+.page\:active {
+  background: lighten(#202020, 3%);
+  position: relative;
+}
